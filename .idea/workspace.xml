@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f94d364-3ac9-4b96-bc3f-b4c099372a24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/WorkerServerApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerApp/Feed/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerApp/Feed/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/Feed/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/Feed/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/Feed/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/Feed/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/Feed/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/Feed/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

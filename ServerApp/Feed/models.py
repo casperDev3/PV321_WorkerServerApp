@@ -13,4 +13,13 @@ class Post(models.Model):
 
 
     def __str__(self):
-        return self.title
+        return {
+            "title": self.title,
+            "content": self.content,
+            "created_at": self.created_at,
+            "updated_at": self.updated_at,
+            "is_published": self.is_published,
+            "views": self.views,
+            "likes": self.likes,
+            "document_id": self.document_id
+        }
