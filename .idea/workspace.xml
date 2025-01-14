@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f94d364-3ac9-4b96-bc3f-b4c099372a24" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ServerApp/Notifications/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/ServerApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/ServerApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/ServerApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/ServerApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,16 +78,5 @@
       <updated>1736530967293</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ServerApp/Feed/views.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
