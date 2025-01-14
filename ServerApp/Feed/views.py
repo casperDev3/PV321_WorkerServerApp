@@ -59,23 +59,32 @@ class PostDetail(APIView):
         }, status=status.HTTP_200_OK)
 
     def put(self, request, pk):
+        # Retrieve the post from the database using the primary key
         post = Post.objects.get(pk=pk)
-        # print("__post ", post)
+
         # TODO: fix issue with required fields
+        # This comment suggests there's an issue with handling required fields, which might lead to validation errors
+
+        # Serialize the post with new data from the request
         serializer = PostSerializer(post, data=request.data["data"])
+
+        # Check if the serializer data is valid
         if serializer.is_valid():
+            # If valid, save the changes
             serializer.save()
             return Response({
                 "data": serializer.data,
                 "meta": {},
                 "success": True
             }, status=status.HTTP_200_OK)
-        return Response({
-            "data": None,
-            "meta": {},
-            "success": False,
-            "errors": serializer.errors
-        }, status=status.HTTP_400_BAD_REQUEST)
+        else:
+            # If not valid, return the errors
+            return Response({
+                "data": None,
+                "meta": {},
+                "success": False,
+                "errors": serializer.errors
+            }, status=status.HTTP_400_BAD_REQUEST)
 
     def delete(self, request, pk):
         post = Post.objects.get(pk=pk)
