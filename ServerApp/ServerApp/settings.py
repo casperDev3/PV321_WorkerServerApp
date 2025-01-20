@@ -102,6 +102,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+CRON_CLASSES = [
+    "Notifications.cron.NotificationCron",
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/

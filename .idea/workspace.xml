@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f94d364-3ac9-4b96-bc3f-b4c099372a24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ServerApp/Notifications/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerApp/Feed/utils/sorting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerApp/Notifications/cron.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerApp/Notifications/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerApp/ServerApp/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerApp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerApp/cron.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerApp/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerApp/utils/helpers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/Feed/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/Feed/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/Notifications/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/Notifications/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerApp/ServerApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/ServerApp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerApp/ServerApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/ServerApp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,15 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Shell Script.run server.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Shell Script.run server.executor": "Run",
+    "git-widget-placeholder": "17__jan__25__DJ__REST__Utils&&Crons"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ServerApp/Notifications" />
+      <recent name="$PROJECT_DIR$/ServerApp" />
+      <recent name="$PROJECT_DIR$/ServerApp/ServerApp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="run server" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="python manage.py runserver " />

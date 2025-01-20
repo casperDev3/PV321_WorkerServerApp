@@ -5,6 +5,7 @@ from rest_framework import status
 from .models import Post
 from .serializers import PostSerializer
 from random import randint
+from .utils.sorting import Sorting
 
 class PostList(APIView):
     def get(self, request):
@@ -20,9 +21,13 @@ class PostList(APIView):
         else:
             filtered_data = serializer.data
 
+        # sort by date
+        sorted_data = Sorting.sort_by_date(filtered_data)
+        print(sorted_data)
+
         # create response
         return Response({
-            "data": filtered_data,
+            "data": sorted_data,
             "meta": {
                 "total": len(serializer.data)
             },
