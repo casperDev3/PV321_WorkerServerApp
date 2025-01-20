@@ -4,16 +4,16 @@ from .models import Notification
 from django.views.decorators.http import require_http_methods
 import json
 from .helpers import Helpers
-from ServerApp import utils
+from .utils.processing import Processing
 
 
 # Create your views here.
 @require_http_methods(["GET", "POST"])
 def all_notifications(request):
     if request.method == "GET":
-        utils.func()
-        notifications = list(Notification.objects.all().values())
-        return Helpers.success_response(notifications)
+        notifications = list(Notification.objects.all().values())  # all data from the Notification table
+        processing_data = Processing(data=notifications, params=request.GET)
+        return Helpers.success_response(processing_data.process_data())
 
     elif request.method == "POST":
         data = json.loads(request.body)
