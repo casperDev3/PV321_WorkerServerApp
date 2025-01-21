@@ -11,9 +11,16 @@ from .utils.processing import Processing
 @require_http_methods(["GET", "POST"])
 def all_notifications(request):
     if request.method == "GET":
-        notifications = list(Notification.objects.all().values())  # all data from the Notification table
-        processing_data = Processing(data=notifications, params=request.GET)
-        return Helpers.success_response(processing_data.process_data())
+        try:
+            notifications = list(Notification.objects.all().values())  # all data from the Notification table
+            processing_data = Processing(data=notifications, params=request.GET)
+            formatted_data = processing_data.process_data()
+            return Helpers.success_response(formatted_data['data'], warnings=formatted_data['warnings'])
+        except KeyError as e:
+            return Helpers.internal_server_error(f"This field does not exist in the Notification table: {str(e)}",
+                                                 status=400)
+        except Exception as e:
+            return Helpers.internal_server_error(str(e))
 
     elif request.method == "POST":
         data = json.loads(request.body)
