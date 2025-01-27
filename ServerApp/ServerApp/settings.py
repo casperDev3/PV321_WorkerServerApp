@@ -40,7 +40,12 @@ INSTALLED_APPS = [
     "rest_framework",
     "Feed",
     "Notifications",
+    "tasks",
+    "graphene_django",
+    "graphene"
 ]
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -128,3 +133,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 APPEND_SLASH=False
+
+
+GRAPHENE = {
+    'SCHEMA': 'tasks.schema.schema'
+}
