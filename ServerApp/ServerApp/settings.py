@@ -136,5 +136,5 @@ APPEND_SLASH=False
 
 
 GRAPHENE = {
-    'SCHEMA': 'tasks.schema.schema'
+    "SCHEMA": "tasks.schema.schema",
 }

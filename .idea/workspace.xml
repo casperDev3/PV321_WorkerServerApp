@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9f94d364-3ac9-4b96-bc3f-b4c099372a24" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/ServerApp/schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/ServerApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/ServerApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/tasks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/tasks/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp/tasks/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp/tasks/schema.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -37,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Shell Script.run server.executor": "Run",
-    "git-widget-placeholder": "27__jan__25__DJ__SOLID",
+    "git-widget-placeholder": "fix-a1d-27-jan",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
